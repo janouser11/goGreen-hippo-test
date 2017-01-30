@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: GoGreen CMS
+Implementation-Version: 0.1.0-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: alex
+Implementation-Vendor-Id: org.example
+Project-Version: 0.1.0-SNAPSHOT
+Implementation-Vendor: 
+Project-Build: -1
+Hippo-Release-Version: 11.1.0
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_111
+Implementation-URL: 
+

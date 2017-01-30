@@ -1,0 +1,71 @@
+30-Jan-2017 10:47:21.465 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/alexjanousek/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+30-Jan-2017 10:47:21.626 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Jan-2017 10:47:21.667 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jan-2017 10:47:21.672 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2017 10:47:21.674 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jan-2017 10:47:21.675 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1170 ms
+30-Jan-2017 10:47:21.730 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jan-2017 10:47:21.730 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.38
+30-Jan-2017 10:47:21.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/alexjanousek/github/gogreen/developer-trail-11.1.0-iteration-2/target/tomcat8x/webapps/cargocpc.war
+30-Jan-2017 10:47:22.750 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/alexjanousek/github/gogreen/developer-trail-11.1.0-iteration-2/target/tomcat8x/webapps/cargocpc.war has finished in 878 ms
+30-Jan-2017 10:47:22.750 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/alexjanousek/github/gogreen/developer-trail-11.1.0-iteration-2/target/tomcat8x/webapps/cms.war
+30-Jan-2017 10:47:54.431 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/alexjanousek/github/gogreen/developer-trail-11.1.0-iteration-2/target/tomcat8x/webapps/cms.war has finished in 31,681 ms
+30-Jan-2017 10:47:54.431 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/alexjanousek/github/gogreen/developer-trail-11.1.0-iteration-2/target/tomcat8x/webapps/essentials.war
+30-Jan-2017 10:48:07.180 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/alexjanousek/github/gogreen/developer-trail-11.1.0-iteration-2/target/tomcat8x/webapps/essentials.war has finished in 12,748 ms
+30-Jan-2017 10:48:07.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/alexjanousek/github/gogreen/developer-trail-11.1.0-iteration-2/target/tomcat8x/webapps/site.war
+30-Jan-2017 10:48:07.187 INFO [localhost-startStop-1] org.apache.catalina.realm.JAASRealm.setUseContextClassLoader Setting useContextClassLoader = true
+30-Jan-2017 10:48:14.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/alexjanousek/github/gogreen/developer-trail-11.1.0-iteration-2/target/tomcat8x/webapps/site.war has finished in 7,213 ms
+30-Jan-2017 10:48:14.396 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/alexjanousek/github/gogreen/developer-trail-11.1.0-iteration-2/target/tomcat8x/webapps/host-manager
+30-Jan-2017 10:48:14.430 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexjanousek/github/gogreen/developer-trail-11.1.0-iteration-2/target/tomcat8x/webapps/host-manager has finished in 34 ms
+30-Jan-2017 10:48:14.430 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/alexjanousek/github/gogreen/developer-trail-11.1.0-iteration-2/target/tomcat8x/webapps/manager
+30-Jan-2017 10:48:14.458 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/alexjanousek/github/gogreen/developer-trail-11.1.0-iteration-2/target/tomcat8x/webapps/manager has finished in 28 ms
+30-Jan-2017 10:48:14.465 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Jan-2017 10:48:14.477 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2017 10:48:14.478 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 52805 ms
+30-Jan-2017 10:49:28.540 INFO [Thread-89] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Jan-2017 10:49:28.599 INFO [Thread-89] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2017 10:49:28.650 INFO [Thread-89] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+30-Jan-2017 10:49:28.818 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [site] appears to have started a thread named [JR-spring-cleaner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.zeroturnaround.javarebel.retrocollection.RetroBlockingQueueFactory$RetroArrayBlockingQueue.poll(SourceFile:40)
+ org.springframework.beans.JrNonSingletonBeanSupport$BackgroundCleanThread.run(JrNonSingletonBeanSupport.java:291)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2017 10:49:29.769 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [cms] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2017 10:49:29.770 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [Wicket-PageSavingThread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ org.apache.wicket.pageStore.AsynchronousDataStore$PageSavingRunnable.run(AsynchronousDataStore.java:345)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2017 10:49:29.771 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [Wicket-PageSavingThread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ org.apache.wicket.pageStore.AsynchronousDataStore$PageSavingRunnable.run(AsynchronousDataStore.java:345)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2017 10:49:29.801 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [essentials] appears to have started a thread named [JR-spring-cleaner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+ org.zeroturnaround.javarebel.retrocollection.RetroBlockingQueueFactory$RetroArrayBlockingQueue.poll(SourceFile:40)
+ org.springframework.beans.JrNonSingletonBeanSupport$BackgroundCleanThread.run(JrNonSingletonBeanSupport.java:291)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2017 10:49:29.801 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [essentials] appears to have started a thread named [rebel/pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2017 10:49:29.811 INFO [Thread-89] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Jan-2017 10:49:29.913 INFO [Thread-89] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2017 10:49:29.993 INFO [Thread-89] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Jan-2017 10:49:29.994 INFO [Thread-89] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
